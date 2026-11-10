@@ -1,0 +1,222 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbe9e4;
+    color: #3b3b3b;
+}
+
+header {
+    background-color: #e8806e;
+    height: 100px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #f08a24;
+}
+
+#camer {
+    height: 80px;
+    border-radius: 10px;
+}
+
+#botones-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#contador-header {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    background-color: #f08a24;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #c4560f;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+#vehiculo {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 210px;
+    border: solid #8a8a8a 2px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-color: #ffd9cf;
+    border: solid #f08a24 3px;
+}
+
+.icono {
+    font-size: 50px;
+}
+
+.img-card {
+    width: 100%;
+    height: 130px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+
+.img_carrito {
+    width: 55px;
+    height: 40px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.categoria {
+    color: #7a7a7a;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.precio {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#carrito {
+    flex: 1;
+    min-width: 260px;
+    background-color: white;
+    border: solid #8a8a8a 2px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.item-carrito {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+.controles {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.btn-eliminar {
+    background-color: #3b3b3b;
+}
+
+#total-texto {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#botones-carrito {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: #f5a95c;
+}
+
+
+
+
+/* MODO OSCURO */
+
+
+
+
+
+
+body.oscuro {
+    background-color: #23253d;
+    color: #eee;
+}
+
+body.oscuro header {
+    background-color: #3e4166;
+    border-bottom: 5px solid #f08a24;
+}
+
+body.oscuro .card,
+body.oscuro #carrito {
+    background-color: #33365a;
+    border-color: #b9a07a;
+}
+
+body.oscuro .card:hover {
+    background-color: #44486f;
+    border-color: #f08a24;
+}
+
+body.oscuro .categoria {
+    color: #cdb88f;
+}
+
+body.oscuro .item-carrito {
+    border-bottom-color: #55597f;
+}
+
+body.oscuro button {
+    background-color: #b9a07a;
+    color: #23253d;
+}
+
+body.oscuro button:hover {
+    background-color: #f08a24;
+}
+
+body.oscuro footer {
+    background-color: #181a2c;
+}
+    
